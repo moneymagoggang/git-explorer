@@ -1,0 +1,52 @@
+body{
+   font-family: 'Roboto Condensed', sans-serif;
+   background-color: white;
+   transition: 1s;
+}
+main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   height: 90vh;
+}
+.search-button {
+   cursor: pointer;
+}
+.search-button:hover{
+   background-color: black;
+   color: white;;
+}
+.card{
+   margin-top: 150px;
+
+}
+.search-image{
+   width: 50%;
+   border-radius: 360px;
+   float: left;
+   margin-right: 25px;
+}
+.header{
+   
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+#bg-btn{
+   background-color: azure;
+   border-radius: 20px;
+  cursor: pointer;
+   
+}
+#bg-btn:hover{
+   background-color: blanchedalmond;
+}
+
+#dark {
+   display: none;
+}
+#light {
+   display: block;
+}
+
